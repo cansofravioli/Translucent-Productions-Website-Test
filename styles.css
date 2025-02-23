@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Navbar improvements */
+.w3-bar {
+    box-shadow: 0 2px 5px rgba(255,255,255,0.1);
+    background-color: #000 !important;
+}
+
+.w3-bar-item {
+    color: #fff !important;
+}
+
+.w3-bar-item:hover {
+    background-color: #333 !important;
+    transition: background-color 0.3s ease;
+}
+
+/* Make the card backgrounds dark */
+.w3-card, .w3-white {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+/* Header improvements */
+.w3-display-middle {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Project section improvements */
+.w3-display-container {
+    transition: transform 0.3s ease;
+    margin-bottom: 16px;
+    background-color: #111;
+}
+
+.w3-display-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(255,255,255,0.2);
+}
+
+.w3-display-topleft {
+    transition: background-color 0.3s ease;
+}
+
+/* Team section improvements */
+.w3-grayscale img {
+    transition: filter 0.3s ease;
+}
+
+.w3-grayscale img:hover {
+    filter: grayscale(0%);
+}
+
+/* Contact form improvements */
+.w3-input {
+    transition: border-color 0.3s ease;
+    margin-bottom: 8px;
+    background-color: #111 !important;
+    color: #fff !important;
+    border-color: #333 !important;
+}
+
+.w3-input:focus {
+    border-color: #fff !important;
+    outline: none;
+}
+
+.w3-button {
+    transition: all 0.3s ease;
+}
+
+.w3-light-grey {
+    background-color: #333 !important;
+    color: #fff !important;
+}
+
+.w3-button:hover {
+    opacity: 0.8;
+    transform: translateY(-2px);
+}
+
+/* Services section improvements */
+#services h4 {
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+#services p {
+    color: #ccc;
+}
+
+/* About section improvements */
+#about p {
+    font-size: 1.1em;
+    color: #ccc;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Contact section improvements */
+#contact textarea {
+    resize: vertical;
+    min-height: 120px;
+    background-color: #111 !important;
+    color: #fff !important;
+    border-color: #333 !important;
+}
+
+/* Border colors */
+.w3-border, .w3-border-light-grey {
+    border-color: #333 !important;
+}
+
+/* Text colors */
+.w3-text-light-grey {
+    color: #ccc !important;
+}
+
+.w3-opacity {
+    color: #aaa !important;
+}
+
+/* Image hover effects */
+.w3-image {
+    transition: opacity 0.3s ease;
+}
+
+.w3-image:hover {
+    opacity: 0.9;
+}
+
+/* Override any remaining white backgrounds */
+.w3-container, .w3-content, .w3-padding {
+    background-color: #000;
+}
+
+/* Make sure all text is white by default */
+h1, h2, h3, h4, h5, h6, p, span, div {
+    color: #fff;
+}
+
+/* Responsive improvements */
+@media (max-width: 600px) {
+    .w3-display-container {
+        margin-bottom: 20px;
+    }
+    
+    .w3-button {
+        width: 100%;
+    }
+}
+
+
+
+
